@@ -1,7 +1,7 @@
 import CurrentWeather from "@/components/CurrentWeather";
 import HourlyTemprature from "@/components/HourlyTemprature";
 import Loading_Skeleton from "@/components/Loading_Skeleton";
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Alert, AlertDescription} from "@/components/ui/alert";
 import WeatherDetail from "@/components/WeatherDetail";
 import WeatherForecast from "@/components/WeatherForecast";
 import { useForecastQuery, useWeatherQuery } from "@/Hooks/UseWeather";
