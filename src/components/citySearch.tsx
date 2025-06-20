@@ -40,7 +40,7 @@ export default function CitySearch() {
     <Button
     onClick={()=>setOpen(true)}
     variant='outline'
-    className="relative w-full justify-start  text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64"
+    className="relative  justify-start  text-sm text-muted-foreground sm:pr-10 md:w-40 lg:w-64"
     >
         <Search className="mr-2 h-4 w-4" />
         Search cities...
@@ -53,9 +53,9 @@ export default function CitySearch() {
       <CommandList>
         { query.length>2 && isLoading &&( < CommandEmpty>No results found.</CommandEmpty>)}
 
-        <CommandGroup heading="Favorites">
+        {/* <CommandGroup heading="Favorites">
           <CommandItem>Calendar</CommandItem>
-        </CommandGroup>
+        </CommandGroup> */}
         
 
        { history.length>0 &&(

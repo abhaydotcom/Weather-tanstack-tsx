@@ -81,7 +81,7 @@ return acc
                         </span>
                     </div>
 
-                    <div className="flex justify-end gap-4">
+                    <div className=" lg:flex justify-end ml-2 gap-2 ">
                         <span className="flex items-center gap-1">
                             <Droplets className="h-4 w-4 text-blue-500"/>
                             <span>{day.humidity}%</span>
